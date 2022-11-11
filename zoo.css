@@ -1,0 +1,136 @@
+body{
+    background-color: rgba(218, 253, 216, 0.854);
+    
+}
+.zoo{
+    margin-top: 0px;
+    margin-left: 500px;
+}
+div{
+    display: inline-block;
+    margin: 45px;
+}
+
+.giraffe{
+    background-color: rgba(21, 72, 21, 0.717);
+    width: 300px;
+    height: 450px;
+    border-radius: 10%;    
+    float: left;
+    margin-left: 30px;
+}
+.giraffe:hover{
+    background-image: url("img/1200px-Giraffe_Mikumi_National_Park.jpg") ;
+    background-size: cover;
+
+}
+.giraffe:hover img{
+    display: none;
+}
+.giraffe:hover p{
+    display: none;
+}
+.giraffe img:hover{
+    display: none;
+}
+
+.gir{
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.pg{
+    color: rgb(238, 193, 133);
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+}
+.h1{
+    color: rgb(238, 193, 133);
+    text-align: center;
+}
+
+
+.zebra{
+    background-color: rgba(21, 72, 21, 0.717);
+    
+    float: inline-start;
+    width: 300px;
+    height: 450px;
+    border-radius: 10%;
+
+}
+
+.zebra p{
+    color: rgb(238, 193, 133);
+    text-align: center;
+    font-size: 16px;
+}
+
+.zebra img{
+    border-radius: 50%;
+    align-items: center;
+}
+
+.zebra{
+    color: rgb(238, 193, 133);
+    text-align: center;
+}
+
+.zebra:hover{
+    background-image: url("img/zebra2.jpg");
+    background-size: cover;    
+}
+
+.zebra:hover p{
+    display: none;
+}
+
+.zebra:hover img{
+    display: none;
+}
+
+
+
+.elephant{
+    background-color: rgba(21, 72, 21, 0.717);
+    width: 300px;
+    height: 450px;
+    border-radius: 10%;    
+    float: left;
+}
+
+.elephant h2{
+    color: rgb(238, 193, 133);
+    text-align: center;
+}
+.elephant p{
+    color: rgb(238, 193, 133);
+    text-align: center;
+    font-size: 16px;
+}
+.elephant img{
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.elephant:hover{
+    background-image: url("img/elepantS.jpg");
+    background-size: cover;
+}
+.elephant:hover p{
+    display: none;
+}
+.elephant:hover img{
+    display: none;
+}
+#hippo:hover{
+    background-image: url("img/hippp.jpg");
+    background-size: cover;
+    
+}
+#chee:hover{
+    background-image: url("img/Cheethcat.jpg");
+    background-size: cover;
+}
+#hippo{
+    margin-left: 200px;
+}
